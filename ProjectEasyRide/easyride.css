@@ -1,0 +1,303 @@
+.navbar{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: right;
+    white-space: nowrap;
+}
+
+:root{
+    --main-color: rgb(42, 52, 227);
+    --second-color: white;
+}
+.navbar div{
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar a{
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    padding: 11px 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--second-color);
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+    transition: 0.15s;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background: black;
+    top: 0;
+}
+
+.easyride-logo{
+    display: flex;
+    text-align: center;
+    font-family: Roboto, Arial;
+    padding-top: 11px;
+    font-size: 25px;
+    padding-right: 850px;
+    padding-left: 30px;
+    width: 30px;
+    height: 90px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto, Arial;
+}
+
+.video-grid{
+    display: flex;
+    flex: 50% 50%;
+    
+}
+
+.bg-text{
+    margin-left: 70px;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+
+body{
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(29, 89, 210);
+}
+
+.hop{
+    margin-top: 13px;
+}
+
+.location,
+.destination{
+    margin-top: 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.price,
+.request-button,
+.schedule-button{
+    margin-top:15px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.price:hover,
+.request-button:hover,
+.schedule-button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.first-img img{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.map{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    text-decoration: none;
+    color: rgb(44, 86, 212);
+    transition: 0.15s;
+}
+
+.map:hover{
+    color: white;
+}
+
+.rating{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.star{
+    margin-top: 10px;
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+}
+
+.thank{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.drive{
+    font-weight: bold;
+    color: rgb(185, 102, 102);
+}
+
+.box-img{
+    display: block;
+    margin: 0 auto;
+    grid-column: 1;
+    grid-row: 1;
+    width: 70%;
+    height: 600px;
+    object-fit: cover;
+    justify-content: center
+  }
+  .box-img img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size:contain ;
+    width: 70%;
+    height: 600px;
+  }
+  .currency-symbol {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--second-color);
+    margin-right: 0.5rem; /* add some margin to separate the two elements */
+  }
+ .shop {
+  margin-top: 20px; /* Adjust as needed */
+  margin-top: 150px;
+  text-align: center;
+}
+
+.shop-container {
+  margin-bottom: 100px;
+} 
+
+.heading{
+    font-family: Roboto, Arial;
+}
+
+.home{
+    font-family: Roboto, Arial;
+    margin-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+    gap: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.home-img img {
+    background-image: url('images/whisky.png');
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+
+.home-text{
+    flex: 1 1 17rem;
+}
+
+.home-text span {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: var(--second-color);
+}
+
+.home-text h1 {
+    font-size : 4.4rem;
+    color: var(--second-color);
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.home-text h2 {
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: var(--second-color);
+    text-transform: capitalize;
+    margin: 0.5rem 0 1.2rem;
+    margin-top: 10px;
+}
+
+.about-us{
+    font-family: Roboto, Arial;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about-content{
+    line-height: 24px;
+}
+
+.text-header{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.main-info{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rides-title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+
+.rides-info{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.div{
+    font-family: Roboto, Arial;
+}
